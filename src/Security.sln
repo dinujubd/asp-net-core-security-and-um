@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security", "Security\Securi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcClient.csproj", "{6481CD20-1A9A-41E5-B90D-16FC7498B6C5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "JavaScriptClient\JavaScriptClient.csproj", "{44D68E4B-DCB9-48DB-A47C-339E32933A41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{ADC3D74E-E383-4C7C-AD52-99948BC618C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,30 @@ Global
 		{6481CD20-1A9A-41E5-B90D-16FC7498B6C5}.Release|x64.Build.0 = Release|Any CPU
 		{6481CD20-1A9A-41E5-B90D-16FC7498B6C5}.Release|x86.ActiveCfg = Release|Any CPU
 		{6481CD20-1A9A-41E5-B90D-16FC7498B6C5}.Release|x86.Build.0 = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|x64.Build.0 = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Debug|x86.Build.0 = Debug|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|x64.ActiveCfg = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|x64.Build.0 = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|x86.ActiveCfg = Release|Any CPU
+		{44D68E4B-DCB9-48DB-A47C-339E32933A41}.Release|x86.Build.0 = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|x64.Build.0 = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Debug|x86.Build.0 = Debug|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|x64.ActiveCfg = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|x64.Build.0 = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{ADC3D74E-E383-4C7C-AD52-99948BC618C3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,6 +27,18 @@ namespace TestApi
                 options.Audience = "api1";
             });
 
+
+
+            services.AddCors(options =>
+            {
+                // this defines a CORS policy called "default"
+                options.AddPolicy("default", policy =>
+                {
+                    policy.WithOrigins("http://localhost:5003")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
         }
 
 
@@ -36,8 +48,8 @@ namespace TestApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("default");
             app.UseAuthentication();
-
             app.UseMvc();
         }
     }
